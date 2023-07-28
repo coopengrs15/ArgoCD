@@ -10,4 +10,4 @@ spec:
   source:
     path: javawebapp
     repoURL: 'https://github.com/coopengrs15/ArgoCD'
-    targetRevision: dev
+    targetRevision: HEAD
