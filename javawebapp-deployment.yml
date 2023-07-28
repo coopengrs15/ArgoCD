@@ -13,7 +13,7 @@ spec:
         name: javawebapp
     spec:
       containers:
-      - image: mylandmarktech/java-web-app
+      - image: coopengrs15/argocd:1
         name: javawebapp
         ports:
         - name: javawebapp
