@@ -9,5 +9,13 @@ spec:
     namespace: argocd
   source:
     path: javawebapp
-    repoURL: 'https://github.com/coopengrs15/ArgoCD'
+    repoURL: 'https://github.com/coopengrs15/ArgoCD.git'
     targetRevision: HEAD
+   
+    syncPolicy:
+      syncOptions:
+      - CreateNamespace=true
+    
+    automated:
+      selfheal: true
+      prune: true
